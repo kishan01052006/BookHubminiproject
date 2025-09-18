@@ -19,7 +19,7 @@ function App() {
           }
         />
         <Route
-          path="/Bookshelves"
+          path="/bookshelves"
           element={
             <ProtectedRoute>
               <Bookshelves />
