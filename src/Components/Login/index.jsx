@@ -37,7 +37,7 @@ const Login = () => {
       } else {
         onSubmitFailure(data.error_msg);
       }
-    } catch (err) {
+    } catch  {
       onSubmitFailure("Something went wrong. Please try again later.");
     }
   };
@@ -52,7 +52,7 @@ const Login = () => {
      
       <div className="hidden md:flex w-1/2 bg-gray-100 items-center justify-center">
         <img
-          src="https://res-console.cloudinary.com/dvbmbe4cl/thumbnails/v1/image/upload/v1758028679/MzA1NmM3YmJlN2VmYjBkM2Q3MWRjYjUwNjJmMWUwNzc1MjdkN2Y1ZF91djd5YmE=/drilldown"
+          src="https://res.cloudinary.com/dvbmbe4cl/image/upload/v1758028679/3056c7bbe7efb0d3d71dcb5062f1e077527d7f5d_uv7yba.jpg"
           alt="login"
           className="loginimage w-full h-full"
         />

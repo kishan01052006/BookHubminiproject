@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import ProtectedRoute from './Components/ProtectedRoute'; 
 import Bookshelves from './Components/BookShelves';
 import BookDetails from './Components/BookDetails';
+import PageNotFound from './Components/PageNotFound';
 function App() {
   return (
     <BrowserRouter>
@@ -32,6 +33,9 @@ function App() {
           </ProtectedRoute>
         }
         />
+        <Route path='*' element={
+          <PageNotFound/>
+        }/>
       </Routes>
     </BrowserRouter>
   );

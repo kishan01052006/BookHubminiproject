@@ -10,7 +10,7 @@ const BookDetails=()=>{
     const {bookId}=useParams()
     const fetchBook = async () => {
     try {
-      const response = await fetch(
+      const response = await fetch(  
         ` https://apis.ccbp.in/book-hub/books/${bookId}`,
         {
           headers: {
